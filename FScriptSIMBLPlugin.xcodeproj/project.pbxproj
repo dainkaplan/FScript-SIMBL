@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5BACD9014DFC717005BBE8A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BACD8F14DFC717005BBE8A /* Cocoa.framework */; };
+		A5BACD9A14DFC717005BBE8A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5BACD9814DFC717005BBE8A /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A5BACD8C14DFC717005BBE8A /* FScriptSIMBLPlugin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FScriptSIMBLPlugin.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5BACD8F14DFC717005BBE8A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A5BACD9214DFC717005BBE8A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A5BACD9314DFC717005BBE8A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A5BACD9414DFC717005BBE8A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A5BACD9714DFC717005BBE8A /* FScriptSIMBLPlugin-Info.plist */ = {isa = PBXFileReference; path = "FScriptSIMBLPlugin-Info.plist"; sourceTree = "<group>"; };
+		A5BACD9914DFC717005BBE8A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5BACD9B14DFC717005BBE8A /* FScriptSIMBLPlugin-Prefix.pch */ = {isa = PBXFileReference; path = "FScriptSIMBLPlugin-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5BACD8914DFC717005BBE8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BACD9014DFC717005BBE8A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5BACD8114DFC717005BBE8A = {
+			isa = PBXGroup;
+			children = (
+				A5BACD9514DFC717005BBE8A /* FScriptSIMBLPlugin */,
+				A5BACD8E14DFC717005BBE8A /* Frameworks */,
+				A5BACD8D14DFC717005BBE8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5BACD8D14DFC717005BBE8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5BACD8C14DFC717005BBE8A /* FScriptSIMBLPlugin.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5BACD8E14DFC717005BBE8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5BACD8F14DFC717005BBE8A /* Cocoa.framework */,
+				A5BACD9114DFC717005BBE8A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5BACD9114DFC717005BBE8A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5BACD9214DFC717005BBE8A /* AppKit.framework */,
+				A5BACD9314DFC717005BBE8A /* CoreData.framework */,
+				A5BACD9414DFC717005BBE8A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A5BACD9514DFC717005BBE8A /* FScriptSIMBLPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				A5BACD9614DFC717005BBE8A /* Supporting Files */,
+			);
+			path = FScriptSIMBLPlugin;
+			sourceTree = "<group>";
+		};
+		A5BACD9614DFC717005BBE8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5BACD9714DFC717005BBE8A /* FScriptSIMBLPlugin-Info.plist */,
+				A5BACD9814DFC717005BBE8A /* InfoPlist.strings */,
+				A5BACD9B14DFC717005BBE8A /* FScriptSIMBLPlugin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5BACD8B14DFC717005BBE8A /* FScriptSIMBLPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5BACD9E14DFC717005BBE8A /* Build configuration list for PBXNativeTarget "FScriptSIMBLPlugin" */;
+			buildPhases = (
+				A5BACD8814DFC717005BBE8A /* Sources */,
+				A5BACD8914DFC717005BBE8A /* Frameworks */,
+				A5BACD8A14DFC717005BBE8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FScriptSIMBLPlugin;
+			productName = FScriptSIMBLPlugin;
+			productReference = A5BACD8C14DFC717005BBE8A /* FScriptSIMBLPlugin.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5BACD8314DFC717005BBE8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Dain's place";
+			};
+			buildConfigurationList = A5BACD8614DFC717005BBE8A /* Build configuration list for PBXProject "FScriptSIMBLPlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A5BACD8114DFC717005BBE8A;
+			productRefGroup = A5BACD8D14DFC717005BBE8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5BACD8B14DFC717005BBE8A /* FScriptSIMBLPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5BACD8A14DFC717005BBE8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BACD9A14DFC717005BBE8A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5BACD8814DFC717005BBE8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A5BACD9814DFC717005BBE8A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5BACD9914DFC717005BBE8A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5BACD9C14DFC717005BBE8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A5BACD9D14DFC717005BBE8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A5BACD9F14DFC717005BBE8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FScriptSIMBLPlugin/FScriptSIMBLPlugin-Prefix.pch";
+				INFOPLIST_FILE = "FScriptSIMBLPlugin/FScriptSIMBLPlugin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A5BACDA014DFC717005BBE8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FScriptSIMBLPlugin/FScriptSIMBLPlugin-Prefix.pch";
+				INFOPLIST_FILE = "FScriptSIMBLPlugin/FScriptSIMBLPlugin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5BACD8614DFC717005BBE8A /* Build configuration list for PBXProject "FScriptSIMBLPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BACD9C14DFC717005BBE8A /* Debug */,
+				A5BACD9D14DFC717005BBE8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5BACD9E14DFC717005BBE8A /* Build configuration list for PBXNativeTarget "FScriptSIMBLPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BACD9F14DFC717005BBE8A /* Debug */,
+				A5BACDA014DFC717005BBE8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5BACD8314DFC717005BBE8A /* Project object */;
+}
