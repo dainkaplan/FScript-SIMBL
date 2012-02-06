@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5392CAD14E008A20024371D /* FScriptSIMBLPrefPane.icns in Resources */ = {isa = PBXBuildFile; fileRef = A5392CAC14E008A20024371D /* FScriptSIMBLPrefPane.icns */; };
 		A5BACD9014DFC717005BBE8A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BACD8F14DFC717005BBE8A /* Cocoa.framework */; };
 		A5BACD9A14DFC717005BBE8A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5BACD9814DFC717005BBE8A /* InfoPlist.strings */; };
 		A5BACDA214DFC736005BBE8A /* FScript.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BACDA114DFC736005BBE8A /* FScript.framework */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A5392CAC14E008A20024371D /* FScriptSIMBLPrefPane.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = FScriptSIMBLPrefPane.icns; sourceTree = "<group>"; };
 		A585669814DFF421007ED7E5 /* FScriptSIMBLPrefPane.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = FScriptSIMBLPrefPane.tiff; sourceTree = "<group>"; };
 		A5BACD8C14DFC717005BBE8A /* FScriptSIMBLPlugin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FScriptSIMBLPlugin.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5BACD8F14DFC717005BBE8A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -175,6 +177,7 @@
 		A5BACDB314DFDF60005BBE8A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A5392CAC14E008A20024371D /* FScriptSIMBLPrefPane.icns */,
 				A5BACDB414DFDF60005BBE8A /* FScriptSIMBLPrefPane-Info.plist */,
 				A585669814DFF421007ED7E5 /* FScriptSIMBLPrefPane.tiff */,
 				A5BACDB514DFDF60005BBE8A /* InfoPlist.strings */,
@@ -293,6 +296,7 @@
 				A5BACDD414DFE881005BBE8A /* SIMBL Uninstaller.app in Resources */,
 				A5BACDD514DFE881005BBE8A /* SIMBL-0.9.9.pkg in Resources */,
 				A5BACDD614DFE881005BBE8A /* SIMBL-License-GNU_GPL_v2.txt in Resources */,
+				A5392CAD14E008A20024371D /* FScriptSIMBLPrefPane.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

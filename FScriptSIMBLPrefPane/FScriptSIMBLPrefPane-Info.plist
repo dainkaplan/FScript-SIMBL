@@ -7,7 +7,7 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFile</key>
-	<string></string>
+	<string>FScriptSIMBLPrefPane.icns</string>
 	<key>CFBundleIdentifier</key>
 	<string>org.tempura.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -23,7 +23,7 @@
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2012 Dain's place. All rights reserved.</string>
+	<string>Copyright © 2012 Dain&apos;s place. All rights reserved.</string>
 	<key>NSMainNibFile</key>
 	<string>FScriptSIMBLPrefPane</string>
 	<key>NSPrefPaneIconFile</key>
