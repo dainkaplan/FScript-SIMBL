@@ -7,19 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A585669914DFF421007ED7E5 /* FScriptSIMBLPrefPane.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A585669814DFF421007ED7E5 /* FScriptSIMBLPrefPane.tiff */; };
 		A5BACD9014DFC717005BBE8A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BACD8F14DFC717005BBE8A /* Cocoa.framework */; };
 		A5BACD9A14DFC717005BBE8A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5BACD9814DFC717005BBE8A /* InfoPlist.strings */; };
+		A5BACDA214DFC736005BBE8A /* FScript.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BACDA114DFC736005BBE8A /* FScript.framework */; };
+		A5BACDA514DFC7CB005BBE8A /* FScriptSIMBLPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BACDA414DFC7CB005BBE8A /* FScriptSIMBLPlugin.m */; };
+		A5BACDAF14DFDF60005BBE8A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BACD8F14DFC717005BBE8A /* Cocoa.framework */; };
+		A5BACDB114DFDF60005BBE8A /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BACDB014DFDF60005BBE8A /* PreferencePanes.framework */; };
+		A5BACDB714DFDF60005BBE8A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5BACDB514DFDF60005BBE8A /* InfoPlist.strings */; };
+		A5BACDBA14DFDF60005BBE8A /* FScriptSIMBLPrefPane.h in Headers */ = {isa = PBXBuildFile; fileRef = A5BACDB914DFDF60005BBE8A /* FScriptSIMBLPrefPane.h */; };
+		A5BACDBC14DFDF60005BBE8A /* FScriptSIMBLPrefPane.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BACDBB14DFDF60005BBE8A /* FScriptSIMBLPrefPane.m */; };
+		A5BACDBE14DFDF60005BBE8A /* FScriptSIMBLPrefPane.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A5BACDBD14DFDF60005BBE8A /* FScriptSIMBLPrefPane.tiff */; };
+		A5BACDC114DFDF60005BBE8A /* FScriptSIMBLPrefPane.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5BACDBF14DFDF60005BBE8A /* FScriptSIMBLPrefPane.xib */; };
+		A5BACDC914DFE3C2005BBE8A /* OnOffSwitchControl.h in Headers */ = {isa = PBXBuildFile; fileRef = A5BACDC514DFE3C2005BBE8A /* OnOffSwitchControl.h */; };
+		A5BACDCA14DFE3C2005BBE8A /* OnOffSwitchControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BACDC614DFE3C2005BBE8A /* OnOffSwitchControl.m */; };
+		A5BACDCB14DFE3C2005BBE8A /* OnOffSwitchControlCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A5BACDC714DFE3C2005BBE8A /* OnOffSwitchControlCell.h */; };
+		A5BACDCC14DFE3C2005BBE8A /* OnOffSwitchControlCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BACDC814DFE3C2005BBE8A /* OnOffSwitchControlCell.m */; };
+		A5BACDCF14DFE857005BBE8A /* FScriptSIMBLPlugin.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A5BACD8C14DFC717005BBE8A /* FScriptSIMBLPlugin.bundle */; };
+		A5BACDD414DFE881005BBE8A /* SIMBL Uninstaller.app in Resources */ = {isa = PBXBuildFile; fileRef = A5BACDD114DFE881005BBE8A /* SIMBL Uninstaller.app */; };
+		A5BACDD514DFE881005BBE8A /* SIMBL-0.9.9.pkg in Resources */ = {isa = PBXBuildFile; fileRef = A5BACDD214DFE881005BBE8A /* SIMBL-0.9.9.pkg */; };
+		A5BACDD614DFE881005BBE8A /* SIMBL-License-GNU_GPL_v2.txt in Resources */ = {isa = PBXBuildFile; fileRef = A5BACDD314DFE881005BBE8A /* SIMBL-License-GNU_GPL_v2.txt */; };
+		A5BACDD814DFE8B7005BBE8A /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BACDD714DFE8B6005BBE8A /* Carbon.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A5BACDCD14DFE84C005BBE8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5BACD8314DFC717005BBE8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5BACD8B14DFC717005BBE8A;
+			remoteInfo = FScriptSIMBLPlugin;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		A585669814DFF421007ED7E5 /* FScriptSIMBLPrefPane.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = FScriptSIMBLPrefPane.tiff; sourceTree = "<group>"; };
 		A5BACD8C14DFC717005BBE8A /* FScriptSIMBLPlugin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FScriptSIMBLPlugin.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5BACD8F14DFC717005BBE8A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		A5BACD9214DFC717005BBE8A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		A5BACD9314DFC717005BBE8A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		A5BACD9414DFC717005BBE8A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		A5BACD9714DFC717005BBE8A /* FScriptSIMBLPlugin-Info.plist */ = {isa = PBXFileReference; path = "FScriptSIMBLPlugin-Info.plist"; sourceTree = "<group>"; };
+		A5BACD9714DFC717005BBE8A /* FScriptSIMBLPlugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FScriptSIMBLPlugin-Info.plist"; sourceTree = "<group>"; };
 		A5BACD9914DFC717005BBE8A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A5BACD9B14DFC717005BBE8A /* FScriptSIMBLPlugin-Prefix.pch */ = {isa = PBXFileReference; path = "FScriptSIMBLPlugin-Prefix.pch"; sourceTree = "<group>"; };
+		A5BACD9B14DFC717005BBE8A /* FScriptSIMBLPlugin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FScriptSIMBLPlugin-Prefix.pch"; sourceTree = "<group>"; };
+		A5BACDA114DFC736005BBE8A /* FScript.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FScript.framework; path = Library/Frameworks/FScript.framework; sourceTree = SDKROOT; };
+		A5BACDA314DFC7CB005BBE8A /* FScriptSIMBLPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FScriptSIMBLPlugin.h; sourceTree = "<group>"; };
+		A5BACDA414DFC7CB005BBE8A /* FScriptSIMBLPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FScriptSIMBLPlugin.m; sourceTree = "<group>"; };
+		A5BACDAE14DFDF60005BBE8A /* FScriptSIMBLPrefPane.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FScriptSIMBLPrefPane.prefPane; path = "FScript+SIMBL.prefPane"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5BACDB014DFDF60005BBE8A /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = System/Library/Frameworks/PreferencePanes.framework; sourceTree = SDKROOT; };
+		A5BACDB414DFDF60005BBE8A /* FScriptSIMBLPrefPane-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FScriptSIMBLPrefPane-Info.plist"; sourceTree = "<group>"; };
+		A5BACDB614DFDF60005BBE8A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5BACDB814DFDF60005BBE8A /* FScriptSIMBLPrefPane-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FScriptSIMBLPrefPane-Prefix.pch"; sourceTree = "<group>"; };
+		A5BACDB914DFDF60005BBE8A /* FScriptSIMBLPrefPane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FScriptSIMBLPrefPane.h; sourceTree = "<group>"; };
+		A5BACDBB14DFDF60005BBE8A /* FScriptSIMBLPrefPane.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FScriptSIMBLPrefPane.m; sourceTree = "<group>"; };
+		A5BACDBD14DFDF60005BBE8A /* FScriptSIMBLPrefPane.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = FScriptSIMBLPrefPane.tiff; sourceTree = "<group>"; };
+		A5BACDC014DFDF60005BBE8A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FScriptSIMBLPrefPane.xib; sourceTree = "<group>"; };
+		A5BACDC514DFE3C2005BBE8A /* OnOffSwitchControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnOffSwitchControl.h; sourceTree = "<group>"; };
+		A5BACDC614DFE3C2005BBE8A /* OnOffSwitchControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnOffSwitchControl.m; sourceTree = "<group>"; };
+		A5BACDC714DFE3C2005BBE8A /* OnOffSwitchControlCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnOffSwitchControlCell.h; sourceTree = "<group>"; };
+		A5BACDC814DFE3C2005BBE8A /* OnOffSwitchControlCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnOffSwitchControlCell.m; sourceTree = "<group>"; };
+		A5BACDD114DFE881005BBE8A /* SIMBL Uninstaller.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = "SIMBL Uninstaller.app"; sourceTree = "<group>"; };
+		A5BACDD214DFE881005BBE8A /* SIMBL-0.9.9.pkg */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SIMBL-0.9.9.pkg"; sourceTree = "<group>"; };
+		A5BACDD314DFE881005BBE8A /* SIMBL-License-GNU_GPL_v2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SIMBL-License-GNU_GPL_v2.txt"; sourceTree = "<group>"; };
+		A5BACDD714DFE8B6005BBE8A /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,7 +77,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5BACDA214DFC736005BBE8A /* FScript.framework in Frameworks */,
 				A5BACD9014DFC717005BBE8A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BACDA914DFDF60005BBE8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BACDD814DFE8B7005BBE8A /* Carbon.framework in Frameworks */,
+				A5BACDAF14DFDF60005BBE8A /* Cocoa.framework in Frameworks */,
+				A5BACDB114DFDF60005BBE8A /* PreferencePanes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,7 +98,10 @@
 		A5BACD8114DFC717005BBE8A = {
 			isa = PBXGroup;
 			children = (
+				A5BACDD714DFE8B6005BBE8A /* Carbon.framework */,
+				A5BACDA114DFC736005BBE8A /* FScript.framework */,
 				A5BACD9514DFC717005BBE8A /* FScriptSIMBLPlugin */,
+				A5BACDB214DFDF60005BBE8A /* FScriptSIMBLPrefPane */,
 				A5BACD8E14DFC717005BBE8A /* Frameworks */,
 				A5BACD8D14DFC717005BBE8A /* Products */,
 			);
@@ -47,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				A5BACD8C14DFC717005BBE8A /* FScriptSIMBLPlugin.bundle */,
+				A5BACDAE14DFDF60005BBE8A /* FScriptSIMBLPrefPane.prefPane */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				A5BACD8F14DFC717005BBE8A /* Cocoa.framework */,
+				A5BACDB014DFDF60005BBE8A /* PreferencePanes.framework */,
 				A5BACD9114DFC717005BBE8A /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -73,6 +139,8 @@
 		A5BACD9514DFC717005BBE8A /* FScriptSIMBLPlugin */ = {
 			isa = PBXGroup;
 			children = (
+				A5BACDA314DFC7CB005BBE8A /* FScriptSIMBLPlugin.h */,
+				A5BACDA414DFC7CB005BBE8A /* FScriptSIMBLPlugin.m */,
 				A5BACD9614DFC717005BBE8A /* Supporting Files */,
 			);
 			path = FScriptSIMBLPlugin;
@@ -88,7 +156,58 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A5BACDB214DFDF60005BBE8A /* FScriptSIMBLPrefPane */ = {
+			isa = PBXGroup;
+			children = (
+				A5BACDD014DFE881005BBE8A /* SIMBL-0.9.9 */,
+				A5BACDC514DFE3C2005BBE8A /* OnOffSwitchControl.h */,
+				A5BACDC614DFE3C2005BBE8A /* OnOffSwitchControl.m */,
+				A5BACDC714DFE3C2005BBE8A /* OnOffSwitchControlCell.h */,
+				A5BACDC814DFE3C2005BBE8A /* OnOffSwitchControlCell.m */,
+				A5BACDB914DFDF60005BBE8A /* FScriptSIMBLPrefPane.h */,
+				A5BACDBB14DFDF60005BBE8A /* FScriptSIMBLPrefPane.m */,
+				A5BACDBD14DFDF60005BBE8A /* FScriptSIMBLPrefPane.tiff */,
+				A5BACDBF14DFDF60005BBE8A /* FScriptSIMBLPrefPane.xib */,
+				A5BACDB314DFDF60005BBE8A /* Supporting Files */,
+			);
+			path = FScriptSIMBLPrefPane;
+			sourceTree = "<group>";
+		};
+		A5BACDB314DFDF60005BBE8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5BACDB414DFDF60005BBE8A /* FScriptSIMBLPrefPane-Info.plist */,
+				A585669814DFF421007ED7E5 /* FScriptSIMBLPrefPane.tiff */,
+				A5BACDB514DFDF60005BBE8A /* InfoPlist.strings */,
+				A5BACDB814DFDF60005BBE8A /* FScriptSIMBLPrefPane-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5BACDD014DFE881005BBE8A /* SIMBL-0.9.9 */ = {
+			isa = PBXGroup;
+			children = (
+				A5BACDD114DFE881005BBE8A /* SIMBL Uninstaller.app */,
+				A5BACDD214DFE881005BBE8A /* SIMBL-0.9.9.pkg */,
+				A5BACDD314DFE881005BBE8A /* SIMBL-License-GNU_GPL_v2.txt */,
+			);
+			path = "SIMBL-0.9.9";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A5BACDAA14DFDF60005BBE8A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BACDBA14DFDF60005BBE8A /* FScriptSIMBLPrefPane.h in Headers */,
+				A5BACDC914DFE3C2005BBE8A /* OnOffSwitchControl.h in Headers */,
+				A5BACDCB14DFE3C2005BBE8A /* OnOffSwitchControlCell.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		A5BACD8B14DFC717005BBE8A /* FScriptSIMBLPlugin */ = {
@@ -108,13 +227,33 @@
 			productReference = A5BACD8C14DFC717005BBE8A /* FScriptSIMBLPlugin.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
+		A5BACDAD14DFDF60005BBE8A /* FScript+SIMBL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5BACDC214DFDF60005BBE8A /* Build configuration list for PBXNativeTarget "FScript+SIMBL" */;
+			buildPhases = (
+				A5BACDA814DFDF60005BBE8A /* Sources */,
+				A5BACDA914DFDF60005BBE8A /* Frameworks */,
+				A5BACDAA14DFDF60005BBE8A /* Headers */,
+				A5BACDAB14DFDF60005BBE8A /* Resources */,
+				A5BACDAC14DFDF60005BBE8A /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5BACDCE14DFE84C005BBE8A /* PBXTargetDependency */,
+			);
+			name = "FScript+SIMBL";
+			productName = FScriptSIMBLPrefPane;
+			productReference = A5BACDAE14DFDF60005BBE8A /* FScriptSIMBLPrefPane.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		A5BACD8314DFC717005BBE8A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				ORGANIZATIONNAME = "Dain's place";
+				ORGANIZATIONNAME = "Dain Kaplan";
 			};
 			buildConfigurationList = A5BACD8614DFC717005BBE8A /* Build configuration list for PBXProject "FScriptSIMBLPlugin" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -129,6 +268,7 @@
 			projectRoot = "";
 			targets = (
 				A5BACD8B14DFC717005BBE8A /* FScriptSIMBLPlugin */,
+				A5BACDAD14DFDF60005BBE8A /* FScript+SIMBL */,
 			);
 		};
 /* End PBXProject section */
@@ -142,17 +282,61 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A5BACDAB14DFDF60005BBE8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BACDCF14DFE857005BBE8A /* FScriptSIMBLPlugin.bundle in Resources */,
+				A5BACDB714DFDF60005BBE8A /* InfoPlist.strings in Resources */,
+				A5BACDBE14DFDF60005BBE8A /* FScriptSIMBLPrefPane.tiff in Resources */,
+				A5BACDC114DFDF60005BBE8A /* FScriptSIMBLPrefPane.xib in Resources */,
+				A5BACDD414DFE881005BBE8A /* SIMBL Uninstaller.app in Resources */,
+				A5BACDD514DFE881005BBE8A /* SIMBL-0.9.9.pkg in Resources */,
+				A5BACDD614DFE881005BBE8A /* SIMBL-License-GNU_GPL_v2.txt in Resources */,
+				A585669914DFF421007ED7E5 /* FScriptSIMBLPrefPane.tiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		A5BACDAC14DFDF60005BBE8A /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A5BACD8814DFC717005BBE8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5BACDA514DFC7CB005BBE8A /* FScriptSIMBLPlugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BACDA814DFDF60005BBE8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BACDBC14DFDF60005BBE8A /* FScriptSIMBLPrefPane.m in Sources */,
+				A5BACDCA14DFE3C2005BBE8A /* OnOffSwitchControl.m in Sources */,
+				A5BACDCC14DFE3C2005BBE8A /* OnOffSwitchControlCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5BACDCE14DFE84C005BBE8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5BACD8B14DFC717005BBE8A /* FScriptSIMBLPlugin */;
+			targetProxy = A5BACDCD14DFE84C005BBE8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A5BACD9814DFC717005BBE8A /* InfoPlist.strings */ = {
@@ -161,6 +345,22 @@
 				A5BACD9914DFC717005BBE8A /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A5BACDB514DFDF60005BBE8A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5BACDB614DFDF60005BBE8A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A5BACDBF14DFDF60005BBE8A /* FScriptSIMBLPrefPane.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5BACDC014DFDF60005BBE8A /* en */,
+			);
+			name = FScriptSIMBLPrefPane.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -214,6 +414,7 @@
 		A5BACD9F14DFC717005BBE8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_ENABLE_OBJC_GC = supported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FScriptSIMBLPlugin/FScriptSIMBLPlugin-Prefix.pch";
 				INFOPLIST_FILE = "FScriptSIMBLPlugin/FScriptSIMBLPlugin-Info.plist";
@@ -226,12 +427,41 @@
 		A5BACDA014DFC717005BBE8A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_ENABLE_OBJC_GC = supported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FScriptSIMBLPlugin/FScriptSIMBLPlugin-Prefix.pch";
 				INFOPLIST_FILE = "FScriptSIMBLPlugin/FScriptSIMBLPlugin-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A5BACDC314DFDF60005BBE8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FScriptSIMBLPrefPane/FScriptSIMBLPrefPane-Prefix.pch";
+				INFOPLIST_FILE = "FScriptSIMBLPrefPane/FScriptSIMBLPrefPane-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VERSION_INFO_FILE = "FScript+SIMBL";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Debug;
+		};
+		A5BACDC414DFDF60005BBE8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FScriptSIMBLPrefPane/FScriptSIMBLPrefPane-Prefix.pch";
+				INFOPLIST_FILE = "FScriptSIMBLPrefPane/FScriptSIMBLPrefPane-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VERSION_INFO_FILE = "FScript+SIMBL";
+				WRAPPER_EXTENSION = prefPane;
 			};
 			name = Release;
 		};
@@ -254,6 +484,16 @@
 				A5BACDA014DFC717005BBE8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5BACDC214DFDF60005BBE8A /* Build configuration list for PBXNativeTarget "FScript+SIMBL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BACDC314DFDF60005BBE8A /* Debug */,
+				A5BACDC414DFDF60005BBE8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
