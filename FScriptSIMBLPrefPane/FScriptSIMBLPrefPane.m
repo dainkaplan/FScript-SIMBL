@@ -7,6 +7,7 @@
 //
 
 #import "FScriptSIMBLPrefPane.h"
+#import "OnOffSwitchControlCell.h"
 
 BOOL simblInstalled(void);
 BOOL pluginInstalled(void);
@@ -45,6 +46,8 @@ BOOL fscriptInstalled()
 
 - (void)mainViewDidLoad
 {
+	OnOffSwitchControlCell *cell = [self.pluginStatusToggle cell];
+	[cell setOnOffSwitchControlColors:OnOffSwitchControlBlueRedColors];
 	[self checkForStuffRecurring];
 }
 
