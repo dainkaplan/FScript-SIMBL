@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A585669914DFF421007ED7E5 /* FScriptSIMBLPrefPane.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A585669814DFF421007ED7E5 /* FScriptSIMBLPrefPane.tiff */; };
 		A5BACD9014DFC717005BBE8A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BACD8F14DFC717005BBE8A /* Cocoa.framework */; };
 		A5BACD9A14DFC717005BBE8A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5BACD9814DFC717005BBE8A /* InfoPlist.strings */; };
 		A5BACDA214DFC736005BBE8A /* FScript.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BACDA114DFC736005BBE8A /* FScript.framework */; };
@@ -253,6 +252,7 @@
 		A5BACD8314DFC717005BBE8A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0410;
 				ORGANIZATIONNAME = "Dain Kaplan";
 			};
 			buildConfigurationList = A5BACD8614DFC717005BBE8A /* Build configuration list for PBXProject "FScriptSIMBLPlugin" */;
@@ -293,7 +293,6 @@
 				A5BACDD414DFE881005BBE8A /* SIMBL Uninstaller.app in Resources */,
 				A5BACDD514DFE881005BBE8A /* SIMBL-0.9.9.pkg in Resources */,
 				A5BACDD614DFE881005BBE8A /* SIMBL-License-GNU_GPL_v2.txt in Resources */,
-				A585669914DFF421007ED7E5 /* FScriptSIMBLPrefPane.tiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
